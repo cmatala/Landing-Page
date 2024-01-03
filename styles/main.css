@@ -1,0 +1,116 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style for div class "one" */
+.one {
+    background-color: #1F2937;
+    color: white;
+}
+
+.one .head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one #logo {
+    padding-right: 20px;
+}
+
+.one .nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.one .nav li {
+    margin: 0 10px;
+}
+
+.one .content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.one header h1 a.button.primary {
+    color: white;
+    background: blue;
+    border-radius: 10px;
+}
+
+.one span.image {
+    padding-left: 20px;
+}
+
+/* Style for div class "two" */
+.two {
+    background-color: #F9FAF8;
+    padding: 20px;
+}
+
+.two header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.two .row {
+    display: flex;
+}
+
+.two article {
+    flex: 1;
+    text-align: center;
+}
+
+/* Style for div class "third" */
+.third {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 20px;
+}
+
+.third p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.third strong#Author {
+    float: right;
+}
+
+/* Style for div class "fourth" */
+.fourth {
+    background-color: #F9FAF8;
+    padding: 20px;
+}
+
+.fourth .container {
+    background-color: blue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.fourth header h1 a.buttondown {
+    color: white;
+    background: blue;
+    border-radius: 10px;
+}
+
+/* Style for footer */
+#footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 10px 0;
+}
